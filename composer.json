@@ -1,0 +1,22 @@
+{
+    "name": "magestyle/module-m2-all",
+    "description": "Magestyle All Extension - config enable/disable common js, css files which were used on all venus extensions. For example: bootstrap, owlcarousel, colorbox, fancybox",
+    "require": {
+        "php": "~7.0.13|~7.1.0",
+        "magento/framework": "101.0.*"
+    },
+    "type": "magento2-module",
+    "version": "0.1.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Magestyle/All"
+            ]
+        ]
+    }
+}
